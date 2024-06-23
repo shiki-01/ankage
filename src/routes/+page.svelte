@@ -3,13 +3,5 @@
 </script>
 
 <main>
-    {#if $items}
-        <ul>
-            {#each $items as item}
-                <li>{item}</li>
-            {/each}
-        </ul>
-    {:else}
-        <p>データがありません</p>
-    {/if}
+    <a href="/word">he</a>
 </main>

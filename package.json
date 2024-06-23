@@ -37,8 +37,11 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fortawesome/free-solid-svg-icons": "^6.5.2",
+		"bits-ui": "^0.21.10",
 		"clsx": "^2.1.1",
 		"firebase": "^10.12.2",
+		"lucide-svelte": "^0.396.0",
 		"svelte-routing": "^2.13.0",
 		"svelte-ux": "^0.70.1",
 		"tailwind-merge": "^2.3.0",

@@ -4,6 +4,7 @@ import { writable } from "svelte/store";
 export type StorageItem = {
     id: string;
     name: string;
+    desc: string;
 };
 
 export type Items = {
@@ -11,5 +12,7 @@ export type Items = {
     sentence: StorageItem[];
 };
 
-export const authStore = writable({ loggedIn: false, user: null as UserInfo | null});
+type userId = string | null;
+
+export const authStore = writable({ loggedIn: false, user: null as UserInfo | null, userId: null as userId});
 export const items = writable<Items[]>([{ word: [], sentence: [] }]);
